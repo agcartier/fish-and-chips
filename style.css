@@ -1,7 +1,8 @@
 /* COULEURS */
 
 :root {
-    --couleurPrincipale: hsl(338, 87%, 58%);
+    --couleurPrincipale: pink;
+    --couleurSecondaire: blue;
 }
 
 body {
@@ -12,4 +13,8 @@ body {
 
 h1 {
     font-size: 8vw;
+}
+
+h2{
+    font-size: 4vw;
 }
