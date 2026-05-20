@@ -1,3 +1,7 @@
+*{box-sizing: border-box;}
+
+img {max-width: 100%;}
+
 /* COULEURS */
 
 :root {
@@ -17,4 +21,18 @@ h1 {
 
 h2{
     font-size: 4vw;
+}
+
+/* Mise en page – Colonnes */
+.row {
+    display: flex;
+    gap: 1rem;
+}
+.row > * { 
+    flex: 1;
+}
+@media(max-widht: 800px){
+    .row{
+        flex-direction: column;
+    }
 }
